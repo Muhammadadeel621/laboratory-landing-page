@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  align-items: end;
+}
+
+.navbar a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 200px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.feature {
+  flex: 0 0 300px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.feature h3 {
+  margin-top: 0;
+}
+
+.feature p {
+  margin-bottom: 0;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
